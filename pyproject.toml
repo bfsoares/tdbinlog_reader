@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "tdbinlog_reader"
+name = "tdbinlog-reader"
 version = "0.1.0"
 description = ""
 authors = ["lplpqq <69588388+lplpqq@users.noreply.github.com>"]
