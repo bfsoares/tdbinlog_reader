@@ -4,19 +4,13 @@ version = "0.1.0"
 description = ""
 authors = ["lplpqq <69588388+lplpqq@users.noreply.github.com>"]
 readme = "README.md"
+packages = [
+    { include = "tdbinlog_reader", from = "src" }
+]
 
 [tool.poetry.dependencies]
 python = "^3.10.14" #3.11
 tgcrypto = "^1.2.5"
-
-[tool.poetry.packages]
-# Explicitly include the package source directory
-#tdbinlog-reader = "path/to/your/source/folder" 
-
-# OR, for the common 'src' layout:
-packages = [
-    { include = "tdbinlog_reader", from = "src" }
-]
 
 [build-system]
 requires = ["poetry-core"]
