@@ -8,7 +8,7 @@ readme = "README.md"
 #include = ["tdbinlog_reader/"] #Não funcionou: poetry.core.masonry.utils.module.ModuleOrPackageNotFoundError: No file/folder found for package tdbinlog-reader
 #include = "tdbinlog_reader/" #Não funcionou: RuntimeError: The Poetry configuration is invalid: - tool.poetry.include must be array
 #packages = [ { include = "tdbinlog_reader", from = "src" } ] # Não funcionou essa tentativa: ValueError: C:\Users\leodo\AppData\Local\Temp\pip-req-build-1yg5zahp\tdbinlog_reader does not contain any element
-#packages = [ { include = "tdbinlog_reader" } ]  # Não funcionou essa tentativa: ValueError: C:\Users\leodo\AppData\Local\Temp\pip-req-build-1yg5zahp\tdbinlog_reader does not contain any element
+packages = [ { include = "tdbinlog_reader" } ]  # Não funcionou essa tentativa: ValueError: C:\Users\leodo\AppData\Local\Temp\pip-req-build-1yg5zahp\tdbinlog_reader does not contain any element
 #package-mode = false # Não funcionou essa tentativa: RuntimeError: Building a package is not possible in non-package mode.
 
 #[tool.poetry.packages]
