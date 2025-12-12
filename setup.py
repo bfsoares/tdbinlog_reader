@@ -9,5 +9,6 @@ setup(
     #    'console_scripts': ['tdbinlog_reader=main']
     #}    
     # Automatically finds packages in your directory structure
-    packages=find_packages(include=["tdbinlog_reader", "tdbinlog_reader.*"])
+    #packages=find_packages(include=["tdbinlog_reader", "tdbinlog_reader.*"])
+    packages=find_packages(".")
 )
