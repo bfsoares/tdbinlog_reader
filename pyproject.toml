@@ -4,9 +4,9 @@ version = "0.1.0"
 description = ""
 authors = ["lplpqq <69588388+lplpqq@users.noreply.github.com>"]
 readme = "README.md"
-#packages = [ { include = "tdbinlog_reader", from = "src" } ] # Não funcionou essa tentativa
-packages = [ { include = "tdbinlog_reader" } ]
-#package-mode = false
+#packages = [ { include = "tdbinlog_reader", from = "src" } ] # Não funcionou essa tentativa: ValueError: C:\Users\leodo\AppData\Local\Temp\pip-req-build-1yg5zahp\tdbinlog_reader does not contain any element
+#packages = [ { include = "tdbinlog_reader" } ]  # Não funcionou essa tentativa: ValueError: C:\Users\leodo\AppData\Local\Temp\pip-req-build-1yg5zahp\tdbinlog_reader does not contain any element
+package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.10.14" #3.11
